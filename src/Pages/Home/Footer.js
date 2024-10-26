@@ -87,7 +87,7 @@ function Footer() {
             </li>
           </ul>
           <p className="footer--content">
-            &copy;{date.getFullYear()}. All rights reserved!
+            &copy;{date.getFullYear()}. All rights reserved Hailu kibret!
           </p>
         </div>
       </div>
