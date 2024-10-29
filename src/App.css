@@ -815,6 +815,10 @@ tr td {
     display: flex;
     z-index: 200;
   }
+  .contact-box {
+    display: flex;
+    flex-direction: column;
+  }
   .navbar--items {
     display: flex;
   }
