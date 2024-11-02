@@ -2,6 +2,10 @@ import React from "react";
 import herophoto from "../../asset/logo-photo.png";
 
 function HeroSection() {
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("Contact");
+    contactSection.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
   return (
     <section id="heroSection" className="hero--section">
       <div className="hero--section--content--box">
@@ -19,7 +23,10 @@ function HeroSection() {
             problems.
           </p>
         </div>
-        <button className="btn btn-primary">Get in Touch</button>
+
+        <button onClick={scrollToContact} className="btn btn-primary">
+          Get in Touch
+        </button>
       </div>
       <div className="hero--section--img">
         <img src={herophoto} alt="hero section" />

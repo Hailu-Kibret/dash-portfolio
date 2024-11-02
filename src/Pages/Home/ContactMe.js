@@ -145,14 +145,6 @@ function ContactMe() {
           </form>
         </div>
       </div>
-      <div>
-        <h1>Log in</h1>
-        <form onSubmit={handleLogin}>
-          <input type="email" placeholder="email" />
-          <input type="password" placeholder="Password" />
-          <button type="submit">Log in</button>
-        </form>
-      </div>
     </section>
   );
 }
