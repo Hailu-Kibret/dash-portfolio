@@ -1,6 +1,50 @@
 import React from "react";
+import { useState } from "react";
 
 function ContactMe() {
+  const [Data, setData] = useState({
+    Full_Name: "",
+    Phone_number: "",
+    Email: "",
+    Message: "",
+    Subject: "",
+  });
+
+  const handleLogin = async (e) => {
+    const { Full_Name, Phone_number, Email, Subject, Message } = Data;
+
+    e.preventDefault();
+    try {
+      const response = await fetch(
+        "https://v1.nocodeapi.com/dash4life/google_sheets/ygdZwjioIcwehzbI?tabId=Sheet1",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify([
+            [Full_Name, Phone_number, Email, Subject, Message],
+          ]),
+        }
+      );
+      await response.json();
+      setData({
+        ...Data,
+        Full_Name: "",
+        Phone_number: "",
+        Email: "",
+        Subject: "",
+        Message: "",
+      });
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  const { Full_Name, Phone_number, Email, Subject, Message } = Data;
+  const handleChange = (e) => {
+    setData({ ...Data, [e.target.name]: e.target.value });
+  };
   return (
     <section id="Contact" className="container container1">
       <p className="sub--title">Get In touch</p>
@@ -29,15 +73,17 @@ function ContactMe() {
         <div className="contact-left">
           <h3>Send you request</h3>
 
-          <form className="second-form">
+          <form className="second-form" onSubmit={handleLogin}>
             <div className="input-row">
               <div className="input-group">
                 <label htmlFor="first-name">Full Name</label>
                 <input
                   type="text"
                   className="contact--input text-md"
-                  name="first-name"
-                  id="first-name"
+                  name="Full_Name"
+                  id="Full-Name"
+                  value={Full_Name}
+                  onChange={handleChange}
                 />
               </div>
               <div className="input-group">
@@ -47,8 +93,10 @@ function ContactMe() {
                 <input
                   type="number"
                   className="contact--input text-md"
-                  name="phone-number"
+                  name="Phone_number"
                   id="phone-number"
+                  value={Phone_number}
+                  onChange={handleChange}
                 />
               </div>
             </div>
@@ -60,8 +108,10 @@ function ContactMe() {
                 <input
                   type="email"
                   className="contact--input text-md"
-                  name="email"
+                  name="Email"
                   id="email"
+                  value={Email}
+                  onChange={handleChange}
                 />
               </div>
               <div className="input-group">
@@ -69,8 +119,10 @@ function ContactMe() {
                 <input
                   type="text"
                   className="contact--input text-md"
-                  name="first-name"
-                  id="first-name"
+                  name="Subject"
+                  id="Subject"
+                  value={Subject}
+                  onChange={handleChange}
                 />
               </div>
             </div>
@@ -78,10 +130,12 @@ function ContactMe() {
             <textarea
               type="number"
               className="contact--input text-md"
-              name="message"
-              id="message"
+              name="Message"
+              id="Message"
               placeholder="type your message..."
               rows={5}
+              value={Message}
+              onChange={handleChange}
             ></textarea>
             <label htmlFor="checkbox" className="checkbox--label">
               <input type="checkbox" required name="checkbox" id="checkbox" />
@@ -90,6 +144,14 @@ function ContactMe() {
             <button className="btn btn-primary">Submit</button>
           </form>
         </div>
+      </div>
+      <div>
+        <h1>Log in</h1>
+        <form onSubmit={handleLogin}>
+          <input type="email" placeholder="email" />
+          <input type="password" placeholder="Password" />
+          <button type="submit">Log in</button>
+        </form>
       </div>
     </section>
   );

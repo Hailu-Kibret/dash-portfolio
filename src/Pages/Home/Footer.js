@@ -8,6 +8,7 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
+
 function Footer() {
   const date = new Date();
   return (
@@ -55,7 +56,7 @@ function Footer() {
         </div>
         <div className="footer--social--icon">
           <ul>
-            <li>
+            <li className="footer-special">
               <a
                 href="https://github.com/DASH4274"
                 target="_blank"

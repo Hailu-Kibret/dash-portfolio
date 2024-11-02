@@ -19,7 +19,17 @@ function MyPortfolio() {
           <h2 className="section--heading">My Portfolio</h2>
         </div>
         <div>
-          <button className="btn btn--github">Visit My github</button>
+          <button className="btn btn--github">
+            <a
+              href="https://github.com/DASH4274"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn "
+              activeClass="navbar--active-content"
+            >
+              Visit My github
+            </a>
+          </button>
         </div>
       </div>
       <div className="portfolio--section--container">

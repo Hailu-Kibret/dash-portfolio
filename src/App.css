@@ -667,6 +667,10 @@ tr td {
   font-size: 30px;
 }
 
+.footer--social--icon > ul > li > a:hover {
+  transform: scale(1.1); /* Scales the link to 1.1 on hover */
+  transition: transform 0.3s ease; /* Smooth transition */
+}
 .footer--content {
   border-top: 2px solid black;
   color: var(--black);
