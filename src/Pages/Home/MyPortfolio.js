@@ -21,6 +21,7 @@ function MyPortfolio() {
         <div>
           <button className="btn btn--github">
             <a
+              style={{ hover: { color: "white" } }}
               href="https://github.com/DASH4274"
               target="_blank"
               rel="noopener noreferrer"
