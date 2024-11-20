@@ -868,3 +868,77 @@ tr td {
     transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
   }
 }
+
+/* General styling for the skills section */
+
+.skills--section--card {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.skills--section--card:hover {
+  transform: scale(1.03);
+}
+
+.skills--section--title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.skills--section--description {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Modal and overlay styles - Only for popup effect */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  backdrop-filter: blur(5px); /* Apply blur effect to background */
+}
+
+.popup-modal {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  text-align: center;
+  position: relative;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Added subtle shadow for contrast */
+}
+
+.popup-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #333;
+  cursor: pointer;
+}
+
+.popup-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.popup-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.popup-description {
+  font-size: 1rem;
+  color: #444;
+}

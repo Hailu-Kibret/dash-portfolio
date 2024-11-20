@@ -30,7 +30,7 @@ function Footer() {
                 <FontAwesomeIcon icon={faTelegram} />
               </span>
 
-              <p>@dash_427</p>
+              <p>@Hailu_Kibret</p>
             </div>
             <div className="contactmail">
               <span style={{ color: "red" }}>
@@ -78,7 +78,7 @@ function Footer() {
             </li>
             <li>
               <a
-                href="https://t.me/DASH_427"
+                href="https://t.me/HaTech4"
                 target="_blank"
                 rel="noopener noreferrer"
                 style={{ color: "#24A1DE" }}

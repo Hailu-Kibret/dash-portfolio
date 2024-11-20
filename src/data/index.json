@@ -3,25 +3,25 @@
     {
       "id": "1",
       "src": "photo1",
-      "title": "UX/UI Design",
+      "title": "Front-end Developer",
       "description": "I design intuitive and user-friendly interfaces, focusing on creating seamless experiences that delight users. My expertise includes wireframing, prototyping, and ensuring accessibility across all devices."
     },
     {
       "id": "2",
       "src": "photo2",
-      "title": "Frameworks & Libraries",
+      "title": "UX/UI Designer",
       "description": "Proficient in modern front-end frameworks and libraries, I specialize in React and Redux to build dynamic, high-performance web applications. My work is grounded in best practices and optimized for scalability and maintainability."
     },
     {
       "id": "3",
       "src": "photo3",
-      "title": "API and Testing",
+      "title": "Video Editor",
       "description": "I excel in integrating and consuming RESTful APIs and GraphQL, ensuring smooth data flow and robust functionality. I also prioritize code quality through comprehensive testing using tools like Jest and Cypress, ensuring reliability and performance."
     },
     {
       "id": "4",
       "src": "photo4",
-      "title": "Other Skills: Graphics Design & Video Editing",
+      "title": "Graphics Designer",
       "description": "Beyond coding, I have a creative edge with skills in graphic design and video editing. I create visually appealing graphics and videos that complement my web projects, enhancing overall engagement and visual storytelling."
     }
   ],
@@ -77,6 +77,75 @@
       "description": "Hailu is a true master of React. His ability to craft complex, dynamic user interfaces using React's component-based architecture is truly remarkable.The websites he has built for us using React have been highly scalable, performant, and a delight to use. I would recommend Hailu to any company looking for a skilled React developer to bring their front-end vision to life.",
       "author_name": "Baslael Workneh",
       "author_designation": "ML engineer",
+      "link": "view in github"
+    }
+  ],
+  "graphicsdesign": [
+    {
+      "id": "1",
+      "src": "project1",
+      "title": "HaTech: A Modern Platform Offering Web Services and Electronic Products",
+      "description": "The HaTech website is a comprehensive platform designed to offer both tech services and electronic products. It serves as a hub for clients seeking website maintenance, development, and design services, as well as a marketplace for electronics. The design and development of the website focus on creating a seamless user experience with a clean and intuitive interface. The site features responsive layouts, organized navigation, and strategic calls to action that guide users through service offerings and product selections. This project highlights my ability to integrate e-commerce functionalities with service-based features, demonstrating my skills in front-end development, UX/UI design, and creating a professional digital presence for tech-related businesses.",
+      "link": "view in github"
+    },
+    {
+      "id": "2",
+      "src": "project2",
+      "title": "Interactive Color Selector: Dynamic Background Changing with Hex Codes",
+      "description": "This front-end app allows users to input a hexadecimal color code to dynamically change the background color of the page. Built with simplicity and user interaction in mind, the application demonstrates basic DOM manipulation and event handling using HTML, CSS, and JavaScript. The primary focus was to create an intuitive and responsive user interface that reacts instantly to user input, providing real-time feedback through color changes. This project showcases my understanding of core front-end development concepts and how to apply them in interactive web applications.",
+      "link": "view in github"
+    },
+    {
+      "id": "3",
+      "src": "project3",
+      "title": "Dash: Crafting a Clean and Engaging Portfolio Landing Page",
+      "description": "In this project, I designed the landing page for my personal portfolio website, Dash, with a focus on user experience and a minimalist aesthetic. The goal was to create a visually appealing and intuitive interface that clearly communicates my skills as a UX/UI designer and front-end developer.The design features a clean layout, smooth navigation, and strategic use of whitespace to guide the user's attention to key elements such as the portfolio, services, and call-to-action buttons. By incorporating modern design principles and ensuring responsive functionality, I aimed to enhance both visual engagement and usability across different devices.",
+      "link": "view in github"
+    }
+  ],
+  "videoediting": [
+    {
+      "id": "1",
+      "src": "project1",
+      "title": "HaTech: A Modern Platform Offering Web Services and Electronic Products",
+      "description": "The HaTech website is a comprehensive platform designed to offer both tech services and electronic products. It serves as a hub for clients seeking website maintenance, development, and design services, as well as a marketplace for electronics. The design and development of the website focus on creating a seamless user experience with a clean and intuitive interface. The site features responsive layouts, organized navigation, and strategic calls to action that guide users through service offerings and product selections. This project highlights my ability to integrate e-commerce functionalities with service-based features, demonstrating my skills in front-end development, UX/UI design, and creating a professional digital presence for tech-related businesses.",
+      "link": "view in github"
+    },
+    {
+      "id": "2",
+      "src": "project2",
+      "title": "Interactive Color Selector: Dynamic Background Changing with Hex Codes",
+      "description": "This front-end app allows users to input a hexadecimal color code to dynamically change the background color of the page. Built with simplicity and user interaction in mind, the application demonstrates basic DOM manipulation and event handling using HTML, CSS, and JavaScript. The primary focus was to create an intuitive and responsive user interface that reacts instantly to user input, providing real-time feedback through color changes. This project showcases my understanding of core front-end development concepts and how to apply them in interactive web applications.",
+      "link": "view in github"
+    },
+    {
+      "id": "3",
+      "src": "project3",
+      "title": "Dash: Crafting a Clean and Engaging Portfolio Landing Page",
+      "description": "In this project, I designed the landing page for my personal portfolio website, Dash, with a focus on user experience and a minimalist aesthetic. The goal was to create a visually appealing and intuitive interface that clearly communicates my skills as a UX/UI designer and front-end developer.The design features a clean layout, smooth navigation, and strategic use of whitespace to guide the user's attention to key elements such as the portfolio, services, and call-to-action buttons. By incorporating modern design principles and ensuring responsive functionality, I aimed to enhance both visual engagement and usability across different devices.",
+      "link": "view in github"
+    }
+  ],
+  "uxuidesign": [
+    {
+      "id": "1",
+      "src": "project1",
+      "title": "HaTech: A Modern Platform Offering Web Services and Electronic Products",
+      "description": "The HaTech website is a comprehensive platform designed to offer both tech services and electronic products. It serves as a hub for clients seeking website maintenance, development, and design services, as well as a marketplace for electronics. The design and development of the website focus on creating a seamless user experience with a clean and intuitive interface. The site features responsive layouts, organized navigation, and strategic calls to action that guide users through service offerings and product selections. This project highlights my ability to integrate e-commerce functionalities with service-based features, demonstrating my skills in front-end development, UX/UI design, and creating a professional digital presence for tech-related businesses.",
+      "link": "view in github"
+    },
+    {
+      "id": "2",
+      "src": "project2",
+      "title": "Interactive Color Selector: Dynamic Background Changing with Hex Codes",
+      "description": "This front-end app allows users to input a hexadecimal color code to dynamically change the background color of the page. Built with simplicity and user interaction in mind, the application demonstrates basic DOM manipulation and event handling using HTML, CSS, and JavaScript. The primary focus was to create an intuitive and responsive user interface that reacts instantly to user input, providing real-time feedback through color changes. This project showcases my understanding of core front-end development concepts and how to apply them in interactive web applications.",
+      "link": "view in github"
+    },
+    {
+      "id": "3",
+      "src": "project3",
+      "title": "Dash: Crafting a Clean and Engaging Portfolio Landing Page",
+      "description": "In this project, I designed the landing page for my personal portfolio website, Dash, with a focus on user experience and a minimalist aesthetic. The goal was to create a visually appealing and intuitive interface that clearly communicates my skills as a UX/UI designer and front-end developer.The design features a clean layout, smooth navigation, and strategic use of whitespace to guide the user's attention to key elements such as the portfolio, services, and call-to-action buttons. By incorporating modern design principles and ensuring responsive functionality, I aimed to enhance both visual engagement and usability across different devices.",
       "link": "view in github"
     }
   ]

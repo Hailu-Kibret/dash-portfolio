@@ -71,15 +71,17 @@ function ContactMe() {
           </table>
         </div>
         <div className="contact-left">
-          <h3>Send you request</h3>
+          <h3 className="text-2xl font-bold mb-6">Send your request</h3>
 
-          <form className="second-form" onSubmit={handleLogin}>
-            <div className="input-row">
+          <form className="second-form space-y-6" onSubmit={handleLogin}>
+            <div className="input-row grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="input-group">
-                <label htmlFor="first-name">Full Name</label>
+                <label htmlFor="first-name" className="text-md font-medium">
+                  Full Name
+                </label>
                 <input
                   type="text"
-                  className="contact--input text-md"
+                  className="contact--input text-md border border-gray-300 rounded-md bg-transparent p-4 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
                   name="Full_Name"
                   id="Full-Name"
                   value={Full_Name}
@@ -87,12 +89,12 @@ function ContactMe() {
                 />
               </div>
               <div className="input-group">
-                <label className="text-md" htmlFor="phone-number">
+                <label className="text-md font-medium" htmlFor="phone-number">
                   Phone
                 </label>
                 <input
                   type="number"
-                  className="contact--input text-md"
+                  className="contact--input text-md border border-gray-300 rounded-md bg-transparent p-4 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
                   name="Phone_number"
                   id="phone-number"
                   value={Phone_number}
@@ -100,14 +102,14 @@ function ContactMe() {
                 />
               </div>
             </div>
-            <div className="input-row">
+            <div className="input-row grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="input-group">
-                <label htmlFor="email" className="text-md">
+                <label htmlFor="email" className="text-md font-medium">
                   Email
                 </label>
                 <input
                   type="email"
-                  className="contact--input text-md"
+                  className="contact--input text-md border border-gray-300 rounded-md bg-transparent p-4 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
                   name="Email"
                   id="email"
                   value={Email}
@@ -115,10 +117,12 @@ function ContactMe() {
                 />
               </div>
               <div className="input-group">
-                <label htmlFor="first-name">Subject</label>
+                <label htmlFor="first-name" className="text-md font-medium">
+                  Subject
+                </label>
                 <input
                   type="text"
-                  className="contact--input text-md"
+                  className="contact--input text-md border border-gray-300 rounded-md bg-transparent p-4 w-full focus:outline-none focus:ring-2 focus:ring-blue-500"
                   name="Subject"
                   id="Subject"
                   value={Subject}
@@ -126,22 +130,33 @@ function ContactMe() {
                 />
               </div>
             </div>
-            <label className="contact-label">Message</label>
+            <label className="contact-label text-md font-medium">Message</label>
             <textarea
-              type="number"
-              className="contact--input text-md"
+              className="contact--input text-md border border-gray-300 rounded-md bg-transparent p-4 w-full h-32 focus:outline-none focus:ring-2 focus:ring-blue-500"
               name="Message"
               id="Message"
-              placeholder="type your message..."
+              placeholder="Type your message..."
               rows={5}
               value={Message}
               onChange={handleChange}
             ></textarea>
-            <label htmlFor="checkbox" className="checkbox--label">
-              <input type="checkbox" required name="checkbox" id="checkbox" />
+
+            <label
+              htmlFor="checkbox"
+              className="checkbox--label flex items-center space-x-2"
+            >
+              <input
+                type="checkbox"
+                required
+                name="checkbox"
+                id="checkbox"
+                className="form-checkbox"
+              />
               <span className="text-sm"> I accept the terms</span>
             </label>
-            <button className="btn btn-primary">Submit</button>
+            <button className="btn btn-primary mt-4 px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
+              Submit
+            </button>
           </form>
         </div>
       </div>

@@ -18,9 +18,9 @@ function HeroSection() {
 
           <p className="hero--section--description">
             {" "}
-            I am a dedicated front end developer with more than 2 years of
-            experience <br /> I worked with many projects and real life
-            problems.
+            I am a dedicated front-end developer with over 2 years of
+            experience, along with expertise in other creative and technical
+            fields.
           </p>
         </div>
 
