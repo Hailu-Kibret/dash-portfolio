@@ -1,19 +1,22 @@
-import data from "../../data/index.json";
-import photo1 from "../../asset/image-1.jpg";
-import photo2 from "../../asset/image-2.jpg";
-import photo3 from "../../asset/image-3.jpg";
-import photo4 from "../../asset/image-4.jpg";
 import React, { useState } from "react";
+import data from "../../data/index.json";
+import photo1 from "../../asset/Get my art printed on awesome products_ Support me….jpg";
+import photo2 from "../../asset/UI UX Design Illustration.jpg";
+import photo3 from "../../asset/Video Editor 3D Character Illustration.jpg";
+import photo4 from "../../asset/Price Tag Clipart Transparent Background, Price Tag Graphic Design Template Vector Isolated, Price Tag Clipart, Tag, Icon PNG Image For Free Download.jpg";
+import { FaCode, FaVideo, FaPaintBrush, FaLaptopCode } from "react-icons/fa";
 
 function MySkills() {
   const [selectedSkill, setSelectedSkill] = useState(null);
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
-  const photos = {
-    photo1,
-    photo2,
-    photo3,
-    photo4,
+  const photos = { photo1, photo2, photo3, photo4 };
+
+  const icons = {
+    FaCode: <FaCode />,
+    FaVideo: <FaVideo />,
+    FaPaintBrush: <FaPaintBrush />,
+    FaLaptopCode: <FaLaptopCode />,
   };
 
   const handleSkillClick = (skill) => {
@@ -37,10 +40,10 @@ function MySkills() {
           <div
             key={index}
             className="skills--section--card"
-            onClick={() => handleSkillClick(item)} // Trigger popup on click
+            onClick={() => handleSkillClick(item)}
           >
-            <img width={200} src={photos[item.src]} alt={item.title} />
             <div className="skills--section--card--content">
+              <div className="skills--section--icon">{icons[item.icon]}</div>
               <h3 className="skills--section--title">{item.title}</h3>
               <p className="skills--section--description">{item.description}</p>
             </div>
@@ -48,7 +51,6 @@ function MySkills() {
         ))}
       </div>
 
-      {/* Popup Modal */}
       {isPopupOpen && selectedSkill && (
         <div className="popup-overlay">
           <div className="popup-modal">

@@ -4,27 +4,32 @@
       "id": "1",
       "src": "photo1",
       "title": "Front-end Developer",
-      "description": "I design intuitive and user-friendly interfaces, focusing on creating seamless experiences that delight users. My expertise includes wireframing, prototyping, and ensuring accessibility across all devices."
+      "description": "I design intuitive and user-friendly interfaces.",
+      "icon": "FaCode"
     },
     {
       "id": "2",
       "src": "photo2",
       "title": "UX/UI Designer",
-      "description": "Proficient in modern front-end frameworks and libraries, I specialize in React and Redux to build dynamic, high-performance web applications. My work is grounded in best practices and optimized for scalability and maintainability."
+      "description": "I design websites form scratch.",
+      "icon": "FaVideo"
     },
     {
       "id": "3",
       "src": "photo3",
       "title": "Video Editor",
-      "description": "I excel in integrating and consuming RESTful APIs and GraphQL, ensuring smooth data flow and robust functionality. I also prioritize code quality through comprehensive testing using tools like Jest and Cypress, ensuring reliability and performance."
+      "description": "I excell in video editing.",
+      "icon": "FaPaintBrush"
     },
     {
       "id": "4",
       "src": "photo4",
       "title": "Graphics Designer",
-      "description": "Beyond coding, I have a creative edge with skills in graphic design and video editing. I create visually appealing graphics and videos that complement my web projects, enhancing overall engagement and visual storytelling."
+      "description": "Beyond coding, I have a creative edge with skills in graphic design",
+      "icon": "FaLaptopCode"
     }
   ],
+
   "portfolio": [
     {
       "id": "1",
