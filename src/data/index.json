@@ -35,21 +35,21 @@
       "id": "1",
       "src": "project1",
       "title": "HaTech: A Modern Platform Offering Web Services and Electronic Products",
-      "description": "The HaTech website is a comprehensive platform designed to offer both tech services and electronic products. It serves as a hub for clients seeking website maintenance, development, and design services, as well as a marketplace for electronics. The design and development of the website focus on creating a seamless user experience with a clean and intuitive interface. The site features responsive layouts, organized navigation, and strategic calls to action that guide users through service offerings and product selections. This project highlights my ability to integrate e-commerce functionalities with service-based features, demonstrating my skills in front-end development, UX/UI design, and creating a professional digital presence for tech-related businesses.",
+      "description": "The HaTech website is a comprehensive platform designed to offer both tech services and electronic products. It serves as a hub for clients seeking website maintenance, development, and design services, as well as a marketplace for electronics..",
       "link": "view in github"
     },
     {
       "id": "2",
       "src": "project2",
       "title": "Interactive Color Selector: Dynamic Background Changing with Hex Codes",
-      "description": "This front-end app allows users to input a hexadecimal color code to dynamically change the background color of the page. Built with simplicity and user interaction in mind, the application demonstrates basic DOM manipulation and event handling using HTML, CSS, and JavaScript. The primary focus was to create an intuitive and responsive user interface that reacts instantly to user input, providing real-time feedback through color changes. This project showcases my understanding of core front-end development concepts and how to apply them in interactive web applications.",
+      "description": "This front-end app allows users to input a hexadecimal color code to dynamically change the background color of the page. Built with simplicity and user interaction in mind, the application demonstrates basic DOM manipulation and event handling. ",
       "link": "view in github"
     },
     {
       "id": "3",
       "src": "project3",
       "title": "Dash: Crafting a Clean and Engaging Portfolio Landing Page",
-      "description": "In this project, I designed the landing page for my personal portfolio website, Dash, with a focus on user experience and a minimalist aesthetic. The goal was to create a visually appealing and intuitive interface that clearly communicates my skills as a UX/UI designer and front-end developer.The design features a clean layout, smooth navigation, and strategic use of whitespace to guide the user's attention to key elements such as the portfolio, services, and call-to-action buttons. By incorporating modern design principles and ensuring responsive functionality, I aimed to enhance both visual engagement and usability across different devices.",
+      "description": "In this project, I designed the landing page for my personal portfolio website, Dash, with a focus on user experience and a minimalist aesthetic. The goal was to create a visually appealing and intuitive interface that clearly communicates.",
       "link": "view in github"
     }
   ],

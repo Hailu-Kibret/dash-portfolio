@@ -386,6 +386,13 @@ h2 {
   gap: 42.6px;
   width: 100%;
 }
+.section--card-mine {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 42.6px;
+  width: 100%;
+}
 
 .portfolio--section--img {
   border-radius: 8px;
@@ -394,6 +401,7 @@ h2 {
 
 .portfolio--section--img > img {
   width: 100%;
+  border-radius: 12px;
 }
 
 .portfolio--section--card {
@@ -407,7 +415,7 @@ h2 {
   cursor: pointer;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  min-height: 830px;
+  min-height: 600px;
 }
 
 .portfolio--section--card--content {
