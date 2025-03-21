@@ -12,13 +12,13 @@ function HeroSection() {
         <div className="hero--section--content">
           <p className="section--title">Hey I'm Hailu</p>
           <h1 className="sero--section--title">
-            <span className="hero--section--title--color">Front-end</span>{" "}
+            <span className="hero--section--title--color">MERN-Stack</span>{" "}
             <br /> developer
           </h1>
 
           <p className="hero--section--description">
             {" "}
-            I am a dedicated front-end developer with over 2 years of
+            I am a dedicated Full-stack developer with over 2 years of
             experience, along with expertise in other creative and technical
             fields.
           </p>

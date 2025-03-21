@@ -71,7 +71,9 @@ function ContactMe() {
           </table>
         </div>
         <div className="contact-left">
-          <h3 className="text-2xl font-bold mb-6">Send your request</h3>
+          <h3 className="contact-h3 text-2xl font-bold mb-6">
+            Send your request
+          </h3>
 
           <form className="second-form space-y-6" onSubmit={handleLogin}>
             <div className="input-row grid grid-cols-1 sm:grid-cols-2 gap-6">
@@ -141,10 +143,7 @@ function ContactMe() {
               onChange={handleChange}
             ></textarea>
 
-            <label
-              htmlFor="checkbox"
-              className="checkbox--label flex items-center space-x-2"
-            >
+            <label htmlFor="checkbox" className="checkbox--label">
               <input
                 type="checkbox"
                 required
@@ -152,7 +151,7 @@ function ContactMe() {
                 id="checkbox"
                 className="form-checkbox"
               />
-              <span className="text-sm"> I accept the terms</span>
+              <span className="accept-class text-sm"> I accept the terms</span>
             </label>
             <button className="btn btn-primary mt-4 px-6 py-3 bg-blue-600 text-white rounded-md hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500">
               Submit

@@ -356,7 +356,7 @@ h2 {
   border-radius: 12px;
 }
 
-.portfolio--section {
+/* .portfolio--section {
   display: flex;
   padding: 112px 85px;
   flex-direction: column;
@@ -442,7 +442,7 @@ h2 {
 
 .portfolio--section--card:hover path {
   stroke: #006b6a;
-}
+} */
 
 .testimonial--section {
   display: flex;
@@ -587,9 +587,33 @@ input[type="checkbox"] {
 .input-row {
   display: flex;
   justify-content: space-between;
+
   margin-bottom: 20px;
 }
 
+.contact--input {
+  /* background-color: inherit; */
+  font-size: 15px;
+  padding: 5px 2px;
+  border-radius: 5%;
+}
+.form-checkbox {
+  margin-top: 8px;
+}
+/* .checkbox--label {
+  display: flex !important;
+  align-content: center;
+  justify-content: center;
+  background-color: red;
+} */
+
+.accept-class {
+  margin-bottom: 16px;
+}
+
+.contact-h3 {
+  margin-bottom: 8px;
+}
 .input-row .input-group {
   flex-basis: 45%;
 }
@@ -950,4 +974,21 @@ tr td {
 .popup-description {
   font-size: 1rem;
   color: #444;
+}
+@media screen and (max-width: 768px) {
+  .contact--section {
+    padding: 60px 20px; /* Adjust padding */
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact--form {
+    width: 100%; /* Make form full width */
+  }
+
+  .contact--form input,
+  .contact--form textarea {
+    width: 100%; /* Ensure inputs are full width */
+    padding: 10px;
+  }
 }

@@ -8,16 +8,17 @@ function AboutMe() {
           <p className="section--title">About</p>
           <h1 className="section--heading">About Me</h1>
           <p className="hero--section--description">
-            I am a junior computer science student at Addis Ababa University. My
-            passion is web development, and I have been specializing in
-            front-end development using the React.js framework.
+            Hello! I am a Computer Science student at Addis Ababa University
+            especializing a Full Stack (MERN) Developer with strong expertise in
+            both frontend and backend development. My skill set includes React,
+            TypeScript, Express, MongoDB and Nodejs with a strong state
+            management, security and for styling Bootstrap and Tailwind CSS.
           </p>
           <p className="hero--section--description">
-            Throughout my studies, I have built a strong foundation in computer
-            science fundamentals, including data structures, algorithms, and
-            software engineering principles. I am particularly skilled in using
-            React.js to build dynamic, responsive, and user-friendly web
-            applications.
+            In addition to my development expertise, I am a skilled UX/UI
+            designer focused on creating intuitive user interfaces.I also have a
+            strong background in video editing, mastering tools like Adobe
+            Photoshop, CapCut, and Adobe Premiere Pro.
           </p>
         </div>
       </div>
