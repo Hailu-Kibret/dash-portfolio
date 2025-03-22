@@ -5,6 +5,7 @@ import photo2 from "../../asset/UI UX Design Illustration.jpg";
 import photo3 from "../../asset/Video Editor 3D Character Illustration.jpg";
 import photo4 from "../../asset/Price Tag Clipart Transparent Background, Price Tag Graphic Design Template Vector Isolated, Price Tag Clipart, Tag, Icon PNG Image For Free Download.jpg";
 import { FaCode, FaVideo, FaPaintBrush, FaLaptopCode } from "react-icons/fa";
+import "./skillStyling.css";
 
 function MySkills() {
   const [selectedSkill, setSelectedSkill] = useState(null);
@@ -30,7 +31,7 @@ function MySkills() {
   };
 
   return (
-    <section className="skills--section" id="myskills">
+    <section className="skills--section container" id="myskills">
       <div className="portfolio--container">
         <p className="section--title">My skills</p>
         <h2 className="skills--section--heading">My expertise</h2>
@@ -44,8 +45,16 @@ function MySkills() {
           >
             <div className="skills--section--card--content">
               <div className="skills--section--icon">{icons[item.icon]}</div>
+
               <h3 className="skills--section--title">{item.title}</h3>
               <p className="skills--section--description">{item.description}</p>
+              <ul className="tech-list">
+                {item.techology.map((tech, i) => (
+                  <li key={i} className="tech-item">
+                    {tech}
+                  </li>
+                ))}
+              </ul>
             </div>
           </div>
         ))}

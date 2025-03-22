@@ -1,68 +1,56 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import photo from "../../asset/dash-high.png";
+import "./navStyling.css";
 
 const Navbar = () => {
   const [navActive, setNavActive] = useState(false);
+
   const toggleNav = () => {
-    setNavActive(!navActive);
+    setNavActive((prev) => !prev);
   };
+
   const closeMenu = () => {
     setNavActive(false);
   };
 
   useEffect(() => {
-    const handleSize = () => {
-      if (window.innerWidth <= 500) {
+    const handleResize = () => {
+      if (window.innerWidth > 1200) {
         closeMenu();
       }
     };
-    window.addEventListener("resize", handleSize);
+
+    window.addEventListener("resize", handleResize);
     return () => {
-      window.removeEventListener("resize", handleSize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
-  useEffect(() => {
-    if (window.innerWidth <= 1200) {
-      closeMenu();
-    }
-  }, []);
   return (
-    <nav className={`navbar ${navActive ? "active" : ""}`}>
-      <Link
-        onClick={closeMenu}
-        activeClass="navbar--active-content"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
-        to="/#heroSection"
-        className="navbar--content"
-      >
+    <nav className="navbar">
+      <Link onClick={closeMenu} to="/" className="navbar--content">
         <div className="navbar-img">
-          <img width={120} src={photo} alt="hailu kibret" />
+          <img width={120} src={photo} alt="Hailu Kibret" />
         </div>
       </Link>
 
-      <a
+      {/* Hamburger Menu */}
+      <div
         className={`nav__hamburger ${navActive ? "active" : ""}`}
         onClick={toggleNav}
       >
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
         <span className="nav__hamburger__line"></span>
-      </a>
+      </div>
+
+      {/* Navigation Items */}
       <div className={`navbar--items ${navActive ? "active" : ""}`}>
         <ul>
           <li>
             <Link
               onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
               to="/#heroSection"
               className="navbar--content"
             >
@@ -72,11 +60,6 @@ const Navbar = () => {
           <li>
             <Link
               onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
               to="/#MyPortfolio"
               className="navbar--content"
             >
@@ -86,11 +69,6 @@ const Navbar = () => {
           <li>
             <Link
               onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
               to="/#AboutMe"
               className="navbar--content"
             >
@@ -100,28 +78,20 @@ const Navbar = () => {
           <li>
             <Link
               onClick={closeMenu}
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
               to="/#testimonial"
               className="navbar--content"
             >
-              testimonials
+              Testimonials
             </Link>
           </li>
         </ul>
       </div>
+
+      {/* Contact Button */}
       <Link
         onClick={closeMenu}
-        activeClass="navbar--active-content"
-        spy={true}
-        smooth={true}
-        offset={-70}
-        duration={500}
         to="/#Contact"
-        className="btn btn-outline-primary"
+        className="btn btn-outline-primary nav-contact"
       >
         Contact me
       </Link>

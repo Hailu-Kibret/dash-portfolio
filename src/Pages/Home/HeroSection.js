@@ -1,5 +1,6 @@
 import React from "react";
 import herophoto from "../../asset/logo-photo.png";
+import "./heroStyling.css";
 
 function HeroSection() {
   const scrollToContact = () => {
@@ -7,7 +8,7 @@ function HeroSection() {
     contactSection.scrollIntoView({ behavior: "smooth", block: "start" });
   };
   return (
-    <section id="heroSection" className="hero--section">
+    <section id="heroSection" className="hero--section container">
       <div className="hero--section--content--box">
         <div className="hero--section--content">
           <p className="section--title">Hey I'm Hailu</p>

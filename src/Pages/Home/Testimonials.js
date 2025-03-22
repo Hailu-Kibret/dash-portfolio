@@ -1,5 +1,5 @@
 import data from "../../data/index.json";
-
+import "./testimonial.css";
 import yammy from "../../asset/yeamlakneh-testimonial.JPG";
 import baslael from "../../asset/baslael-testimonial.jpg";
 import eyobed from "../../asset/eyobed-testimonial.jpg";
@@ -19,7 +19,7 @@ function Testimonials() {
           <h2 className="sections--heading">Customer Feedback</h2>
         </div>
       </div>
-      <div className="portfolio--section--container">
+      <div className="testimonial--section--container">
         {data?.testimonial?.map((item, index) => (
           <div key={index} className="testimonial--section--card">
             <div className="testimonial--section--card--reviews">

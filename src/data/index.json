@@ -4,15 +4,36 @@
       "id": "1",
       "src": "photo1",
       "title": "Full-stack Developer",
-      "description": "I design intuitive and user-friendly interfaces.",
-      "icon": "FaCode"
+      "description": "My Full-stack skill includes but not limited to:",
+      "icon": "FaCode",
+      "techology": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Git",
+        "Redux"
+      ]
     },
     {
       "id": "2",
       "src": "photo2",
       "title": "Video editor",
-      "description": "I design websites form scratch.",
-      "icon": "FaVideo"
+      "description": "My video editing tools and skills include:",
+      "icon": "FaVideo",
+      "techology": [
+        "Adobe Premiere Pro",
+        "Adobe After Effects",
+        "CapCut",
+        "Video production",
+        "Editing",
+        "Color correction",
+        "Sound design"
+      ]
     }
   ],
 
@@ -21,22 +42,25 @@
       "id": "1",
       "src": "project1",
       "title": "HaTech: A Modern Platform Offering Web Services and Electronic Products",
-      "description": "The HaTech website is a comprehensive platform designed to offer both tech services and electronic products. It serves as a hub for clients seeking website maintenance, development, and design services, as well as a marketplace for electronics..",
-      "link": "view in github"
+      "description": "The HaTech website is a comprehensive platform designed to offer both tech services and electronic products. It serves as a hub for clients seeking website maintenance, development, and design services, as well as a marketplace for electronics.",
+      "technologies": ["React", "Node.js", "Express", "MongoDB"],
+      "link": "https://github.com/DASH4274/hatech"
     },
     {
       "id": "2",
       "src": "project2",
       "title": "Interactive Color Selector: Dynamic Background Changing with Hex Codes",
-      "description": "This front-end app allows users to input a hexadecimal color code to dynamically change the background color of the page. Built with simplicity and user interaction in mind, the application demonstrates basic DOM manipulation and event handling. ",
-      "link": "view in github"
+      "description": "This front-end app allows users to input a hexadecimal color code to dynamically change the background color of the page. Built with simplicity and user interaction in mind, the application demonstrates basic DOM manipulation and event handling.",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "link": "https://github.com/DASH4274/color-selector"
     },
     {
       "id": "3",
       "src": "project3",
       "title": "Dash: Crafting a Clean and Engaging Portfolio Landing Page",
       "description": "In this project, I designed the landing page for my personal portfolio website, Dash, with a focus on user experience and a minimalist aesthetic. The goal was to create a visually appealing and intuitive interface that clearly communicates.",
-      "link": "view in github"
+      "technologies": ["HTML", "CSS"],
+      "link": "https://github.com/DASH4274/myportfolio"
     }
   ],
   "testimonial": [

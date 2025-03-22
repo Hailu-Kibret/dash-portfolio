@@ -1,109 +1,62 @@
 .portfolio--section {
   display: flex;
-  padding: 112px 85px;
   flex-direction: column;
-  align-items: flex-start;
-  gap: 40px;
+  padding: 133.3px 85.3px;
 }
 
 .portfolio--container-box {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  width: 100%;
+  padding: 0 0 34px 0;
 }
-
-.portfolio--container {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  /* width: 100%; */
-  gap: 21.3px;
-}
-/*
-.portfolio--section--header {
-  text-align: center;
-  font-size: x-large;
-  padding: 12px;
-}
-*/
 
 .portfolio--section--container {
   display: flex;
-  align-items: center;
   flex-direction: column;
-  justify-content: center;
-  gap: 42.6px;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-.portfolio--section--img {
-  border-radius: 8px;
-  width: 100%;
-}
-
-.portfolio--section--img > img {
-  width: 100%;
-  border-radius: 12px;
+  gap: 34px;
 }
 
 .portfolio--section--card {
-  padding: 4px 10px 0 10px;
   display: flex;
-  /* flex-direction: column; */
-  align-items: flex-start;
-  gap: 32px;
-  flex: 1 1 300px;
-  background: #fff;
-  box-shadow: 0 0 32px rgba(0, 0, 0, 0.25);
-  cursor: pointer;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  /* min-height: 600px;
-  max-width: 300px; */
-}
-/*
-.frontend-button {
-  padding: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  padding: 18px 12px;
+  background-color: var(--bg-shade);
+  border-radius: 34px;
+  gap: 16px;
 }
 
-@media (max-width: 768px) {
+.portfolio--section--img > img {
+  width: 400px;
+  border-radius: 14px;
+}
+
+@media (max-width: 900px) {
   .portfolio--section {
-    padding: 80px 30px;
+    padding: 80px 20px;
   }
 
-  .portfolio--container {
-    width: 100%;
-  }
-
-  .portfolio--section--header {
-    font-size: large;
+  .portfolio--container-box {
+    flex-direction: column;
   }
 
   .portfolio--section--container {
-    gap: 20px;
+    gap: 24px;
   }
 
   .portfolio--section--card {
-    min-height: 400px;
-    flex: 1 1 100%;
+    flex-direction: column;
+  }
+
+  .portfolio--section--img > img {
+    width: 100%;
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .portfolio--section {
     padding: 60px 15px;
   }
 
-  .portfolio--section--header {
-    font-size: medium;
+  .portfolio--section--img > img {
+    width: 100%;
   }
-
-  .portfolio--section--container {
-    flex-direction: column;
-  }
-} */
+}

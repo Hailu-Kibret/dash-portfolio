@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-
+import "./contactStyling.css";
 function ContactMe() {
   const [Data, setData] = useState({
     Full_Name: "",
@@ -49,9 +49,7 @@ function ContactMe() {
     <section id="Contact" className="container container1">
       <p className="sub--title">Get In touch</p>
       <h1>Connect with us</h1>
-      <p className="text-lg">
-        Get in touch with me I am chilling and approachable guy
-      </p>
+
       <div className="contact-box">
         <div className="contact-right">
           <h3>Reach us</h3>
@@ -134,7 +132,7 @@ function ContactMe() {
             </div>
             <label className="contact-label text-md font-medium">Message</label>
             <textarea
-              className="contact--input text-md border border-gray-300 rounded-md bg-transparent p-4 w-full h-32 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="contact--input text-md "
               name="Message"
               id="Message"
               placeholder="Type your message..."
