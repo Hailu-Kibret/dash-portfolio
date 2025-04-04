@@ -1,78 +1,61 @@
 .about--section {
   display: flex;
-  /* justify-content: center;
-  align-items: center; */
-  padding: 133.3px 85.3px;
+  gap: 40px;
   background: var(--bg-shade);
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-  border-radius: 10px; /* Rounded corners for a softer look */
+  border-radius: 10px;
+  flex-direction: column;
 }
 
 .about--section--content {
-  max-width: 800px; /* Limits width for readability */
-  text-align: left; /* Align text to the left */
-}
-
-.section--title {
-  color: var(--primary);
-  font-size: 2rem; /* Responsive size */
-  font-weight: 600;
-  margin-bottom: 10px; /* Spacing below title */
-}
-
-.section--heading {
-  color: var(--heading-color);
-  font-size: 3rem; /* Responsive heading size */
-  font-weight: 700;
-  margin-bottom: 20px; /* Spacing below heading */
+  max-width: 800px;
+  text-align: left;
 }
 
 .about-description {
-  display: flex; /* Enable flexbox for horizontal layout */
-  gap: 20px; /* Gap between the two paragraphs */
-  flex-wrap: wrap; /* Allow items to wrap if there isn't enough space */
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .about-description--left,
 .about-description--right {
-  flex: 1; /* Allow both columns to grow equally */
+  flex: 1;
 }
 
-/* Styling for paragraphs */
 .hero--section--description {
   color: var(--dark-blue);
-  font-size: 1.2rem; /* Responsive font size */
+  font-size: 1.2rem;
   font-weight: 400;
-  line-height: 1.6; /* Increased line height for readability */
+  line-height: 1.6;
 }
 
 .skills-list {
-  list-style-type: disc; /* Bulleted list */
-  padding-left: 20px; /* Indent for bullet points */
+  list-style-type: disc;
+  padding-left: 20px;
   color: var(--dark-blue);
 }
 
 .skills-list li {
-  font-size: 1.2rem; /* Ensure list items match the paragraph font size */
-  font-weight: 400; /* Normal weight for list items */
+  font-size: 1.2rem;
+  font-weight: 400;
 }
 
 .skills-list li strong {
-  font-weight: 700; /* Bold for skill names */
+  font-weight: 700;
 }
 
-/* Media Queries for Responsiveness */
 @media (max-width: 768px) {
   .about--section {
-    padding: 5vh 5vw; /* Less padding on smaller screens */
+    padding: 1.5rem 2rem;
   }
 
   .section--title {
-    font-size: 1.5rem; /* Smaller title */
+    font-size: 1.5rem;
   }
 
   .section--heading {
-    font-size: 2.5rem; /* Smaller heading */
+    font-size: 2.5rem;
   }
 
   .hero--section--description {

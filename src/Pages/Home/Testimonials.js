@@ -13,12 +13,11 @@ const testimonialPhoto = {
 function Testimonials() {
   return (
     <section className="testimonial--section" id="testimonial">
-      <div className="portfolio--container-box">
-        <div className="portfolio--container">
-          <p className="sub--title">Clients Feedback</p>
-          <h2 className="sections--heading">Customer Feedback</h2>
-        </div>
+      <div className="portfolio--container">
+        <p className="sub--title">Clients Feedback</p>
+        <h2 className="sections--heading">Customer Feedback</h2>
       </div>
+
       <div className="testimonial--section--container">
         {data?.testimonial?.map((item, index) => (
           <div key={index} className="testimonial--section--card">

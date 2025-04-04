@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import data from "../../data/index.json";
 import photo1 from "../../asset/Get my art printed on awesome products_ Support me….jpg";
-import photo2 from "../../asset/UI UX Design Illustration.jpg";
-import photo3 from "../../asset/Video Editor 3D Character Illustration.jpg";
-import photo4 from "../../asset/Price Tag Clipart Transparent Background, Price Tag Graphic Design Template Vector Isolated, Price Tag Clipart, Tag, Icon PNG Image For Free Download.jpg";
+
+import photo2 from "../../asset/Video Editor 3D Character Illustration.jpg";
+
 import { FaCode, FaVideo, FaPaintBrush, FaLaptopCode } from "react-icons/fa";
 import "./skillStyling.css";
 
@@ -11,7 +11,7 @@ function MySkills() {
   const [selectedSkill, setSelectedSkill] = useState(null);
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
-  const photos = { photo1, photo2, photo3, photo4 };
+  const photos = { photo1, photo2 };
 
   const icons = {
     FaCode: <FaCode />,
@@ -33,8 +33,8 @@ function MySkills() {
   return (
     <section className="skills--section container" id="myskills">
       <div className="portfolio--container">
-        <p className="section--title">My skills</p>
-        <h2 className="skills--section--heading">My expertise</h2>
+        <p className=" sub--title">My skills</p>
+        <h2 className="section--title">My expertise</h2>
       </div>
       <div className="skills--section--container">
         {data?.skills?.map((item, index) => (

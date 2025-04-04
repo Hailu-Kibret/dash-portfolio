@@ -10,6 +10,15 @@
   padding: 0 0 34px 0;
 }
 
+.tech-list {
+  padding: 12px;
+}
+.portfolio--section--title {
+  padding-bottom: 8px;
+}
+.portfolio--section--card--content p {
+  padding-bottom: 8px;
+}
 .portfolio--section--container {
   display: flex;
   flex-direction: column;
@@ -49,13 +58,32 @@
   .portfolio--section--img > img {
     width: 100%;
   }
+  .portfolio--container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .portfolio--container-box {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
 }
 
 @media (max-width: 600px) {
   .portfolio--section {
     padding: 60px 15px;
   }
-
+  .portfolio--container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .portfolio--container-box {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+  }
   .portfolio--section--img > img {
     width: 100%;
   }

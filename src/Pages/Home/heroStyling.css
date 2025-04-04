@@ -22,13 +22,17 @@
   gap: 1.5rem;
 }
 
+.section--title {
+  font-size: 2rem;
+}
+
 .hero--section--content--box > button {
   margin-top: 1.5rem;
 }
 
 .hero--section--title {
   color: var(--heading-color);
-  font-size: 4.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
   line-height: 1.2;
 }

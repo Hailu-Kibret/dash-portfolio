@@ -12,9 +12,9 @@ function HeroSection() {
       <div className="hero--section--content--box">
         <div className="hero--section--content">
           <p className="section--title">Hey I'm Hailu</p>
-          <h1 className="sero--section--title">
+          <h1 className="hero--section--title">
             <span className="hero--section--title--color">MERN-Stack</span>{" "}
-            <br /> developer
+            developer
           </h1>
 
           <p className="hero--section--description">

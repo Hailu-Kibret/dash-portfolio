@@ -41,25 +41,32 @@
     {
       "id": "1",
       "src": "project1",
-      "title": "HaTech: A Modern Platform Offering Web Services and Electronic Products",
-      "description": "The HaTech website is a comprehensive platform designed to offer both tech services and electronic products. It serves as a hub for clients seeking website maintenance, development, and design services, as well as a marketplace for electronics.",
-      "technologies": ["React", "Node.js", "Express", "MongoDB"],
+      "title": "Planet Tutors: A Comprehensive Platform for Student Learning and Tutoring.",
+      "description": "Planet Tutors is a dynamic website designed to help students find tutors and access educational materials, featuring both front-end and back-end functionalities. The front-end is built using React and TypeScript for enhanced user experience, styled with Tailwind CSS for a modern look. On the back-end, it utilizes MongoDB for efficient data storage, along with Express and Node.js to create a robust API. The platform not only facilitates tutor searches but also offers educational resources, blogs, and valuable tips, all aimed at supporting students in their learning journey.",
+      "technologies": ["React", "Node.js", "Express", "MongoDB", "Typescript"],
       "link": "https://github.com/DASH4274/hatech"
     },
     {
       "id": "2",
       "src": "project2",
-      "title": "Interactive Color Selector: Dynamic Background Changing with Hex Codes",
-      "description": "This front-end app allows users to input a hexadecimal color code to dynamically change the background color of the page. Built with simplicity and user interaction in mind, the application demonstrates basic DOM manipulation and event handling.",
-      "technologies": ["HTML", "CSS", "JavaScript"],
+      "title": "HakimPodcast: A Professional Hub for Doctors",
+      "description": "As an intern at Kasma Solutions, I was responsible for the front-end design of various projects, showcasing my skills in creating user-friendly and visually appealing interfaces. My work included implementing a range of features that enhanced the user experience, such as responsive layouts, interactive components, and streamlined navigation. I utilized modern technologies and design principles to ensure that the websites not only met client specifications but also provided engaging experiences for users. This role allowed me to collaborate with cross-functional teams, contributing to the overall success of our projects while further developing my expertise in front-end development.",
+      "technologies": ["React", "CSS", "JavaScript", "Redux"],
       "link": "https://github.com/DASH4274/color-selector"
     },
     {
       "id": "3",
       "src": "project3",
-      "title": "Dash: Crafting a Clean and Engaging Portfolio Landing Page",
-      "description": "In this project, I designed the landing page for my personal portfolio website, Dash, with a focus on user experience and a minimalist aesthetic. The goal was to create a visually appealing and intuitive interface that clearly communicates.",
-      "technologies": ["HTML", "CSS"],
+      "title": "Dash Bookstore: A Comprehensive Online Store for Renting and Buying Books.",
+      "description": "At Dash Bookstore, an online platform for renting and purchasing books, I played a crucial role in full stack development. I was responsible for both front-end and back-end development, creating a seamless user experience from design to functionality. My tasks included  implementing features for renting and buying books. On the back-end, I developed the API and managed the database to ensure efficient handling of user data and transactions. This comprehensive role enabled me to integrate various functionalities, resulting in a robust online bookstore that meets the diverse needs of book lovers.",
+      "technologies": [
+        "MERN",
+        "React",
+        "Typescript",
+        "Express",
+        "MongoDB",
+        "Node.js"
+      ],
       "link": "https://github.com/DASH4274/myportfolio"
     }
   ],

@@ -47,12 +47,14 @@ function ContactMe() {
   };
   return (
     <section id="Contact" className="container container1">
-      <p className="sub--title">Get In touch</p>
-      <h1>Connect with us</h1>
+      <div className="contact-title">
+        <p className="sub--title">Get In touch</p>
+        <h2 className="section--title">Connect with us</h2>
+      </div>
 
       <div className="contact-box">
         <div className="contact-right">
-          <h3>Reach us</h3>
+          {/* <h3>Reach us</h3> */}
           <table>
             <tr>
               <td>Email:</td>
